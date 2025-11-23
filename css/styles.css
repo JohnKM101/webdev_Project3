@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #95aafe;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/*  navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+ul li a:hover {
+  background-color: #111111;
+
+}
+
+/* headings */
+
+h1 {
+  text-align: center;
+  color: #2b2b2b;
+}
+
+h2{
+  text-align: center;
+  color: #2b2b2b;
+
+}
+ 
+
+/* page content */
+p, li {
+  font-family: Arial, sans-serif; 
+  line-height: 1.6;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+/* images */
+img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+/* video */
+#center {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* paragraphs */
+p {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* lists */
+
+ul li{
+  background-color: #333;
+  color: #f2f2f2;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  
+
+}
+
+/*map*/
+#googleMap {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+#map-controls {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#map-controls button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #003366;
+  color: white;
+}
+
+#map-controls button:hover {
+  background-color: #0055aa;
+}
+
+
+/* responsive typography w/ moblie included */
+@media (max-width: 800px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.2rem; }
+
+  .nav li a {
+    padding: 0.7rem 1rem;
+  }
+
+  .content-list li {
+    padding: 0.8rem;
+  }
+}
+
+
+
+
